@@ -1,0 +1,227 @@
+ h2 {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 24px;
+     font-weight: 600;
+     text-align: center;
+     padding-top: 5px;
+
+ }
+
+ h3 {
+     color: #A9A9A9;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     font-weight: 600;
+     text-align: center;
+     line-height: 1px;
+
+ }
+
+ .profilepic {
+     width: 150px;
+     height: 150px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     border-radius: 10px;
+ }
+
+ .stats {
+     padding-left: 35%;
+     width: 30%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+
+ .stats-1,
+ .stats-2,
+ .stats-3 {
+     margin-top: 10px;
+     height: 67px;
+     width: 100px;
+     background-color: #E5E5E5;
+     border-radius: 10px;
+ }
+
+ .number {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 18px;
+     margin-bottom: 0;
+
+
+ }
+
+ .info {
+     text-align: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 14px;
+     color: #BDBDBD;
+     margin-top: 0;
+ }
+
+ .photolayer-1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 20px;
+     margin-bottom: 20px;
+ }
+
+ #photo1 {
+     height: 300px;
+     width: 310px;
+     border-radius: 10px;
+ }
+
+ #photo2 {
+     height: 300px;
+     width: 610px;
+     border-radius: 10px;
+
+ }
+
+ .photolayer-2 {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+ }
+
+ .groupleft-2 {
+     width: 600px;
+     display: flex;
+     gap: 20px;
+ }
+
+ #photo3 {
+     height: 300px;
+     width: 620px;
+     border-radius: 10px;
+     margin-bottom: 20px;
+ }
+
+ #photo4 {
+     height: 300px;
+     width: 300px;
+     border-radius: 10px;
+ }
+
+ #photo5 {
+     height: 300px;
+     width: 300px;
+     border-radius: 10px;
+ }
+
+ #photo6 {
+     height: 625px;
+     width: 300px;
+     border-radius: 10px;
+ }
+
+ @media (max-width:560px) {
+
+     .profilepic {
+         width: 100px;
+         height: 100px;
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         margin-top: 50px;
+         border-radius: 10px;
+     }
+
+     .stats {
+         padding-left: 25%;
+         width: 50%;
+         display: flex;
+         justify-content: space-evenly;
+         align-items: center;
+     }
+
+     .stats-1,
+     .stats-2,
+     .stats-3 {
+         margin-top: 10px;
+         height: 52px;
+         width: 78px;
+         background-color: #E5E5E5;
+         border-radius: 10px;
+     }
+
+     .number {
+         text-align: center;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 12px;
+         margin-bottom: 0;
+
+
+     }
+
+     .info {
+         text-align: center;
+         font-family: 'Montserrat', sans-serif;
+         font-size: 10px;
+         color: #BDBDBD;
+         margin-top: 0;
+     }
+
+     .photolayer-1 {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         margin-bottom: 10px;
+     }
+
+     #photo1 {
+         height: 150px;
+         width: 155px;
+         border-radius: 5px;
+     }
+
+     #photo2 {
+         height: 150px;
+         width: 305px;
+         border-radius: 5px;
+
+     }
+
+     .photolayer-2 {
+         display: flex;
+         gap: 10px;
+         justify-content: center;
+     }
+
+     .groupleft-2 {
+         width: 300px;
+         display: flex;
+         gap: 10px;
+     }
+
+     #photo3 {
+         height: 150px;
+         width: 310px;
+         border-radius: 5px;
+         margin-bottom: 10px;
+     }
+
+     #photo4 {
+         height: 150px;
+         width: 150px;
+         border-radius: 5px;
+     }
+
+     #photo5 {
+         height: 150px;
+         width: 150px;
+         border-radius: 5px;
+     }
+
+     #photo6 {
+         height: 312px;
+         width: 150px;
+         border-radius: 5px;
+     }
+ }
